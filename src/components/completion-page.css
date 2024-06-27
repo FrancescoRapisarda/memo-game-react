@@ -1,0 +1,27 @@
+.box-title {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.img-rickemorty {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
